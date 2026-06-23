@@ -11,10 +11,10 @@ int main() {
     printf("Enter the number of depth: ");
     scanf("%d",&depth);
 
-    int ***ptr = malloc(row*sizeof(int));
+    int ***ptr = malloc(row*sizeof(int**));
     for (int i=0;i<col;i++) {
-        *(ptr+i) = malloc(col*sizeof(int));
-        for (int j=0;j<depth;j++) {
+        *(ptr+i) = malloc(row*sizeof(int*));
+        for (int j=0;j<col;j++) {
             *(*(ptr+i)+j) = malloc(depth*sizeof(int));
         }
     }
