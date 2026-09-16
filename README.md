@@ -2,7 +2,7 @@
 
 A collection of C programs created while learning and practicing the fundamentals of the C programming language.
 
-The repository focuses on understanding how C works at a lower level, especially memory allocation, arrays, pointers, structures, and bit manipulation.
+The Repository focuses on understanding how C works at a lower level, especially memory allocation, arrays, pointers, structures, and bit manipulation.
 
 ## Topics Covered
 
